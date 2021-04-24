@@ -1,6 +1,6 @@
 # <img src="public/favicon.png" width="48" alt="this.weather icon"/>    React PWA | this.weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 <br/>
 
 # ⛅ this.weather
@@ -32,7 +32,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 >I wanted to learn how to make apps using React. So, I start my journey by simply create <a href="https://github.com/debrajhyper/this.weather">this</a> normal <a href="https://reactjs.org/">react website</a>. But later I came to know about <a href="https://web.dev/progressive-web-apps/">PWA</a> so I tried <a href="https://github.com/debrajhyper/this.weather">this</a> react project to convert it into a fully responsive react PWA.
 After focusing on many minor details finally I made <a href="https://github.com/debrajhyper/this.weather">this responsive react PWA.</a>
-<br>
+<br/>
 
 ⚙ <b style="letter-spacing:1.2px">Technology Used :</b>
 <ul>
@@ -61,7 +61,7 @@ After focusing on many minor details finally I made <a href="https://github.com/
 * Weather Conditions: <a href="https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2">openweathermap.org/weather-conditions#Weather-Condition-Codes-2</a>
 <br/>
 
-# 📊 Latest PageSpeed Insights Results
+# 📊 Latest PageSpeed Insights Score
 <img src="assets/screenshots/result_mobile.png" style="padding:5%; border-radius:20px"/>
 <img src="assets/screenshots/result_desktop.png" style="padding:5%; border-radius:20px" />
 <br/>
@@ -72,7 +72,7 @@ After focusing on many minor details finally I made <a href="https://github.com/
 
 # 💾 Screenshots
     
-<h3>Desktop | this.weather</h3>
+<h3>💻 Desktop | this.weather</h3>
 <p align="center">
     <img src="assets/screenshots/Screenshot (119).png" width="400"/>
     <img src="assets/screenshots/Screenshot (120).png" width="400"/>
@@ -80,7 +80,7 @@ After focusing on many minor details finally I made <a href="https://github.com/
     <img src="assets/screenshots/Screenshot (123).png" width="400"/>
 </p>
 
-<h3>Mobile | this.weather</h3>
+<h3>📱 Mobile | this.weather</h3>
 <p align="center">
     <img src="assets/screenshots/Screenshot (125).png" width="200"/>
     <img src="assets/screenshots/Screenshot (127).png" width="200"/>
@@ -94,9 +94,10 @@ After focusing on many minor details finally I made <a href="https://github.com/
 # 💻 Running
 ## Clone & install
 
-+ Clone this repo `git clone git@github.com:debrajhyper/this.weather`
-+ `cd this.weather`
-+ run `npm install`
++ Clone this repo `git@github.com:debrajhyper/this.weather.git`
++ Goto `$ cd this.weather`
++ type `$ npm install`
++ run `$ npm start`
 
 ## API keys
 + Get your API key from <a href="https://openweathermap.org/">http://openweathermap.org/</a>
