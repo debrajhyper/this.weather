@@ -66,6 +66,31 @@ After focusing on many minor details finally I made <a href="https://github.com/
 <img src="assets/screenshots/result_desktop.png" style="padding:5%; border-radius:20px" />
 <br/>
 
+# 📌 Latest Google Lighthouse audit
+<img src="assets/screenshots/lighthuse.png" style="padding:5%; border-radius:20px"/>
+<br/>
+
+# 💾 Screenshots
+    
+<h3>Desktop | this.weather</h3>
+<p align="center">
+    <img src="assets/screenshots/Screenshot (119).png" width="400"/>
+    <img src="assets/screenshots/Screenshot (120).png" width="400"/>
+    <img src="assets/screenshots/Screenshot (124).png" width="400"/>
+    <img src="assets/screenshots/Screenshot (123).png" width="400"/>
+</p>
+
+<h3>Mobile | this.weather</h3>
+<p align="center">
+    <img src="assets/screenshots/Screenshot (125).png" width="400"/>
+    <img src="assets/screenshots/Screenshot (126).png" width="400"/>
+    <img src="assets/screenshots/Screenshot (127).png" width="400"/>
+    <img src="assets/screenshots/Screenshot (129).png" width="400"/>
+</p>
+
+
+<br>
+
 # 💻 Running
 ## Clone & install
 
