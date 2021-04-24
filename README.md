@@ -4,12 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <br/>
 <br/>
 
-![GitHub watchers](https://img.shields.io/github/watchers/debrajhyper/this.weather)
-![GitHub repo size](https://img.shields.io/github/repo-size/debrajhyper/this.weather?color=7eca9c)
-![npm](https://img.shields.io/npm/v/npm?color=e84545&logo=npm)
-![node-current](https://img.shields.io/node/v/package.js?logo=node.js&logoColor=white)
-![GitHub last commit](https://img.shields.io/github/last-commit/debrajhyper/this.weather?color=ffc93c)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8c90ee80-b103-4025-8a23-41c3d2cba71e/deploy-status)](https://app.netlify.com/sites/thisdotweather/deploys)
+
 <br/>
 
 # ⛅ this.weather
