@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">   -->
+    <link rel="icon"  href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="author" content="Debraj Karmakar">
+    <meta name="keywords" content="thisdotweather.netlify.app, thisdotweather, this.weather, weather, world, Openstreetmap, forecast, Openweather, current, location, geolocation, react, react-app, data, api, current weather">
+    <meta name="description" content="Watch the weather in your city and received hourly forecast, including data of wind, cloudiness, pressure, humidity, time of sunrise and sunset,  geo coords on this.weather App" />
+    <meta property="og:type" content="PWA" />
+    <meta property="og:title" content="this.weather App" />
+    <meta property="og:description" content="Watch the weather in your city and received hourly forecast, including data of wind, cloudiness, pressure, humidity, time of sunrise and sunset,  geo coords on this.weather App" />
+    <meta property="og:image" content="./logo192.png" />
+    <meta property="og:site_name" content="this.weather App" /> 
+    <meta name="twitter:title" content="this.weather App">
+    <meta name="twitter:description" content="Watch the weather in your city and received hourly forecast, including data of wind, cloudiness, pressure, humidity, time of sunrise and sunset,  geo coords on this.weather App">
+    <meta name="twitter:image" content="./logo192.png">
+    <meta name="twitter:site" content="@Debraj33938079">
+    <meta name="twitter:creator" content="@Debraj33938079">
+
+    <link rel="apple-touch-icon" href="./logo192.png" />
+    <link rel="manifest" href="./manifest.json" />
+    <title>this.weather App</title>
+  </head>
+  
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      if('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./serviceworker.js')
+          .then((reg) => console.log('🎯 Success : ', reg.scope))
+          .catch((err) => console.log('🔔 Failure : ', err));
+        })
+      }
+    </script>
+  </body>
+</html>

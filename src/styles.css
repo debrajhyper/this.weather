@@ -1,0 +1,335 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'Poppins';
+}
+
+
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.4));
+  /*overflow: hidden;*/
+}
+
+.row {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0!important;
+  /*width: 100vw;*/
+  min-height: 100vh;
+}
+
+.row .col {
+  position: relative;
+  top: 0;
+  left: 0;
+  /*height: 100%;*/
+  /*margin: 0;*/
+}
+
+.row .col:first-child {
+  padding: 5vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.left .title-link {
+  color: white;
+  text-decoration: none;
+}
+
+.left .title {
+  color: white;
+  font-size: 1.2vw;
+  /* font-family: monospace; */
+  opacity: 0.3;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.weather-box {
+  /*padding-bottom: 2vw;*/
+  text-align: left;
+  display: flex;
+  color: white;
+  /*justify-content: space-evenly;*/
+  align-items: flex-end;
+  font-family: 'Poppins';
+}
+
+.weather-box .temp {
+  position: relative;
+  top: 0;
+  left: 0;
+  /*width: 40%;*/
+  /*display: inline-block;*/
+  padding: 0;
+  margin: 0;
+  margin-right: 2%;
+  /*font-size: 9rem;*/
+  font-size: 9vw;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100%;
+}
+
+.location-box {
+  /*display: inline-block;*/
+  /*width: 100%;*/
+  padding-bottom: 2%;
+  margin-right: 2%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-box .location {
+  /* border: 1px solid red; */
+  font-size: 3vw;
+  font-weight: 400;
+  letter-spacing: .0em;
+  /* line-height: 100%; */
+  padding: 0;
+  margin: 0;
+}
+
+.location-box .date {
+  /* border: 1px solid blue; */
+  font-size: 1.2vw;
+  font-weight: 300;
+  /* line-height: 100%; */
+  letter-spacing: .1em;
+}
+
+.weather-icon {
+  /*display: inline-block;*/
+  padding-bottom: 2%;
+  margin: 0;
+  /*width: 20%;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
+  /*align-items: flex-start;*/
+}
+
+.weather-ibox {
+  padding: 0;
+  margin: 0;
+  /*width: 20%;*/
+  /*height: 100%;*/
+  /*display: flex;*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-icon .image {
+  /* border: 1px solid red; */
+  display: inline-block;
+  width: 4vw;
+  padding: 0;
+  margin: 0;
+}
+
+.weather-icon .weather {
+  /* border: 1px solid blue; */
+  font-size: 1.2vw;
+  font-weight: 300;
+  /* line-height: 100%; */
+  letter-spacing: .1em;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+.col.right {
+  position: relative;
+  padding: 0 1.5vw;
+  /*background: rgba(0,0,0,0.1);*/
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 25px 45px rgba(0, 0, 0, 0.1);
+}
+
+.search-box {
+  position: relative;
+  width: 100%;
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box .search-bar::placeholder {
+  color: rgba(255, 255, 255, 0.678);
+  letter-spacing: 1px;
+}
+
+.search-box .search-bar {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 8px 20px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  backdrop-filter: blur(2px);
+  box-shadow: 0px 25px 45px rgba(0, 0, 0, 0.1);
+  /*border-bottom: 2px solid rgba(255,255,255,0.2);*/
+  color: #ffffff;
+  font-size: 1.4vw;
+  font-family: 'Poppins';
+  letter-spacing: 1px;
+  transition: 0.5s ease;
+}
+
+.search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.2);
+  padding-right: 55px;
+}
+
+.search-box .search-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 2%;
+  margin-right: 2%;
+  opacity: 0.8;
+}
+
+.details-box {
+  padding: 2vw;
+  color: white;
+  font-family: 'Poppins';
+  /*text-align: justify;*/
+}
+
+.weather-details {
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+
+.weather-details h1 {
+  font-weight: 600;
+  font-size: 1.2vw;
+  letter-spacing: .05em;
+}
+
+.weather-info .name {
+  font-weight: 600;
+  letter-spacing: .1em!important;
+  opacity: .5;
+}
+
+.weather-info .basic div {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-info .basic div h1 {
+  font-size: 1vw;
+  letter-spacing: .05em;
+  /*margin: 0;*/
+}
+
+.weather-info .station .position {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.weather-info .station .country {
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-info .station div h1 {
+  font-size: 1vw;
+  letter-spacing: .05em;
+  margin: 0;
+}
+
+.weather-info .station div h1.base {
+  font-size: 1.3vw;
+}
+
+.weather-info .station div h1.value {
+  font-size: 1.6vw;
+}
+
+.weather-info .xtra div {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-info .xtra div h1 {
+  font-size: 1vw;
+  letter-spacing: .05em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************[   E L S E   ]*******************************************************/
+
+.else-main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.4));
+  /*overflow: hidden;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.else-box {
+  /* border: 1px solid red; */
+  position: relative;
+  text-align: center;
+  padding: 4vw;
+  color: white;
+
+  /* border: 1px solid white; */
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 25px 45px rgba(0,0,0,0.1);
+  border: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.else-img {
+  width: 10vw;
+  opacity: 0.8;
+}
+
+.else-detect {
+  font-size: 2.5vw;
+}
+
+.else-msg {
+  padding-top: 5%;
+  font-size: 1vw;
+}

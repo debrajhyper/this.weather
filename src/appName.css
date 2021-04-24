@@ -1,0 +1,233 @@
+.app_name {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/unknown.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.D_clear_sky {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/D_clear_sky.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.N_clear_sky {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/N_clear_sky.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.D_few_clouds {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/D_few_clouds.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.N_few_clouds {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/N_few_clouds.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.D_scattered_clouds {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/D_scattered_clouds.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.N_scattered_clouds {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/N_scattered_clouds.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.D_broken_clouds {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/D_broken_clouds.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.N_broken_clouds {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/N_broken_clouds.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.D_shower_rain {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/D_shower_rain.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.N_shower_rain {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/N_shower_rain.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.D_rain {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/D_rain.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.N_rain {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/N_rain.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.D_thunderstorm {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/D_thunderstorm.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.N_thunderstorm {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/N_thunderstorm.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.D_snow {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/D_snow.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.N_snow {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/N_snow.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.D_mist {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/D_mist.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+.N_mist {
+    height: 100%;
+    width: 100%;
+    /*height: 100vh;*/
+    background-image: url('./assets/wallpaper/N_mist.webp');
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+/* @keyframes fade {
+    0%   {opacity: 1;}
+    50%  {opacity: 0;}
+    100% {opacity: 1;}
+} */

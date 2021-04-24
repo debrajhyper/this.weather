@@ -1,0 +1,95 @@
+@media (max-width: 767px) {
+  .row .left {
+    padding-bottom: 0vw!important;
+    /*padding: 2vw 5vw!important;*/
+    /*height: 80vw!important;*/
+  }
+}
+
+@media (max-width: 767px) {
+  .row .right {
+    /*height: 200vw!important;*/
+  }
+}
+
+@media (max-width: 767px) {
+  .left .title {
+    font-size: 4vw!important;
+  }
+}
+
+@media (max-width: 767px) {
+  .weather-box .temp {
+    font-size: 20vw!important;
+  }
+}
+
+@media (max-width: 767px) {
+  .location-box .location {
+    font-size: 5vw!important;
+  }
+}
+
+@media (max-width: 767px) {
+  .location-box .date {
+    font-size: 2.2vw!important;
+  }
+}
+
+@media (max-width: 767px) {
+  .weather-icon .image {
+    width: 8vw!important;
+  }
+}
+
+@media (max-width: 767px) {
+  .weather-icon .weather {
+    font-size: 2vw!important;
+  }
+}
+
+/* -------------------------------------------- */
+
+@media (max-width: 767px) {
+  .col.right {
+    padding: 2vw 5vw!important;
+  }
+}
+
+@media (max-width: 767px) {
+  .details-box {
+    padding: 5vw 6vw!important;
+  }
+}
+
+@media (max-width: 767px) {
+  .search-box .search-bar {
+    font-size: 4vw!important;
+  }
+}
+
+@media (max-width: 767px) {
+  .weather-details h1 {
+    font-size: 3.5vw!important;
+    letter-spacing: .07em;
+  }
+}
+
+@media (max-width: 767px) {
+  .weather-info h1 {
+    font-size: 3.5vw!important;
+  }
+}
+
+@media (max-width: 767px) {
+  .station .base {
+    font-size: 4.1vw!important;
+  }
+}
+
+@media (max-width: 767px) {
+  .station .value {
+    font-size: 5.3vw!important;
+  }
+}
+
