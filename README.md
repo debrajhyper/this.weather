@@ -47,7 +47,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 <b style="letter-spacing:1.6px">Website : </b><a href="https://thisdotweather.netlify.app/">this.weather</a>
 <br/>
 
-    Watch the weather in your city and received hourly forecast, including data of wind, cloudiness, pressure, humidity, time of sunrise and sunset, geo coords on this.weather React PWA App
+    Watch the weather in your city and received hourly forecast, including data of wind, cloudiness, 
+    pressure, humidity, time of sunrise and sunset, geo coords on this.weather React PWA App
 <br/>
 
 # Key Features
@@ -68,8 +69,6 @@ Developed by <a href="https://github.com/debrajhyper">Debraj Karmakar</a>
 
 >I wanted to learn how to make apps using React. So, I start my journey by simply create <a href="https://github.com/debrajhyper/this.weather">this</a> normal <a href="https://reactjs.org/">react website</a>. But later I came to know about <a href="https://web.dev/progressive-web-apps/">PWA</a> so I tried <a href="https://github.com/debrajhyper/this.weather">this</a> react project to convert it into a fully responsive react PWA.
 After focusing on many minor details finally I made <a href="https://github.com/debrajhyper/this.weather">this responsive react PWA.</a>
-<br>
-
 <br>
 
 <b style="letter-spacing:1.2px">Technology Used :</b>
