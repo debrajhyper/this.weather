@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
     Watch the weather in your city and received hourly forecast, including data of wind, cloudiness, 
     pressure, humidity, time of sunrise and sunset, geo coords on this.weather React PWA App
+
 <br/>
 
 # 🚀 Key Features
@@ -23,7 +24,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Offline ready
 - Installable ( add to Homescreen )
 - Multi-Platform Support
-<br/>
 <br/>
 
 # 🎯 this.weather Info
@@ -60,7 +60,8 @@ After focusing on many minor details finally I made <a href="https://github.com/
 
 * Weather Conditions: <a href="https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2">openweathermap.org/weather-conditions#Weather-Condition-Codes-2</a>
 
-
+# 📊 Latest PageSpeed Insights Results
+<img href="assets/screenshots/result_desktop.png" ></img>
 
 # 💻 Running
 
