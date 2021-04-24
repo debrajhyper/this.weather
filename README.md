@@ -1,4 +1,4 @@
-# <img src="public/favicon.ico" width="48" alt="this.weather icon"/>    React PWA | this.weather App
+# <img src="public/favicon.png" width="48" alt="this.weather icon"/>    React PWA | this.weather App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 <br/>
