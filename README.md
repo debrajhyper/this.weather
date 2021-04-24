@@ -62,7 +62,8 @@ After focusing on many minor details finally I made <a href="https://github.com/
 <br/>
 
 # 📊 Latest PageSpeed Insights Results
-<img src="assets/screenshots/result_mobile.png" width="45%" style="padding:1%; border-radius:10px"/><img src="assets/screenshots/result_desktop.png" width="45%" style="padding:1%; border-radius:10px" />
+<img src="assets/screenshots/result_mobile.png" style="padding:5%; border-radius:20px"/>
+<img src="assets/screenshots/result_desktop.png" style="padding:5%; border-radius:20px" />
 <br/>
 
 # 💻 Running
