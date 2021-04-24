@@ -50,7 +50,7 @@ After focusing on many minor details finally I made <a href="https://github.com/
     <li>Chrome</li>
     <li>Netlify</li>
 </ul>
-
+<br/>
 
 # 📥 API
 <b style="letter-spacing:1px">Weather data is retrieved from</b>
@@ -59,12 +59,13 @@ After focusing on many minor details finally I made <a href="https://github.com/
 * Current weather data: <a href="https://openweathermap.org/current">openweathermap.org/current</a>
 
 * Weather Conditions: <a href="https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2">openweathermap.org/weather-conditions#Weather-Condition-Codes-2</a>
+<br/>
 
 # 📊 Latest PageSpeed Insights Results
-<img href="assets/screenshots/result_desktop.png" ></img>
+<img src="assets/screenshots/result_mobile.png" width="45%" style="padding:1%; border-radius:10px"/><img src="assets/screenshots/result_desktop.png" width="45%" style="padding:1%; border-radius:10px" />
+<br/>
 
 # 💻 Running
-
 ## Clone & install
 
 + Clone this repo `git clone git@github.com:debrajhyper/this.weather`
