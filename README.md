@@ -85,6 +85,7 @@ After focusing on many minor details finally I made <a href="https://github.com/
     <img src="assets/screenshots/Screenshot (125).png" width="200"/>
     <img src="assets/screenshots/Screenshot (127).png" width="200"/>
     <img src="assets/screenshots/Screenshot (129).png" width="200"/>
+    <img src="assets/screenshots/Screenshot (126).png" width="200"/>
 </p>
 
 
