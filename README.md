@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# <img src="public/favicon.png" width="48" alt="this.weather icon"/>    React PWA | this.weather App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -39,32 +39,62 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<br/>
+<br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# this.weather
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<b style="letter-spacing:1.6px">Website : </b><a href="https://thisdotweather.netlify.app/">this.weather</a>
+<br/>
 
-### Code Splitting
+    Watch the weather in your city and received hourly forecast, including data of wind, cloudiness, pressure, humidity, time of sunrise and sunset, geo coords on this.weather React PWA App
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Key Features
+- Current location weather report.
+- Searchable weather report for cities.
+- Detailed weather report.
+- Dynamic theme according to weather type.
+- Dynamic weather type icon.
+- Progressive Web Application { PWA }
+- Responsive
+- Offline ready
+- Installable ( add to Homescreen )
+- Multi-Platform Support
 
-### Analyzing the Bundle Size
+# PWA Info
+Developed by <a href="https://github.com/debrajhyper">Debraj Karmakar</a>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+>I wanted to learn how to make apps using React. So, I start my journey by simply create <a href="https://github.com/debrajhyper/this.weather">this</a> normal <a href="https://reactjs.org/">react website</a>. But later I came to know about <a href="https://web.dev/progressive-web-apps/">PWA</a> so I tried <a href="https://github.com/debrajhyper/this.weather">this</a> react project to convert it into a fully responsive react PWA.
+After focusing on many minor details finally I made <a href="https://github.com/debrajhyper/this.weather">this responsive react PWA.</a>
+<br>
 
-### Making a Progressive Web App
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<b style="letter-spacing:1.2px">Technology Used :</b>
+<ul>
+    <li>npm</li>
+    <li>Webpack</li>
+    <li>PWA</li>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>Bootstrap</li>
+    <li>React JS</li>
+    <li>Fetch API</li>
+    <li>lottiefiles</li>
+    <li>Github</li>
+    <li>VS Code</li>
+    <li>Chrome</li>
+    <li>Netlify</li>
+</ul>
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# API
+<b style="letter-spacing:1px">Weather data is retrieved from</b>
+* Open Weather map: <a href="https://openweathermap.org/">openweathermap.org/</a>
 
-### Deployment
+* Current weather data: <a href="https://openweathermap.org/current">openweathermap.org/current</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Weather Conditions: <a href="https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2">openweathermap.org/weather-conditions#Weather-Condition-Codes-2</a>
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
