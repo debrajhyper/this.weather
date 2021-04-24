@@ -82,10 +82,9 @@ After focusing on many minor details finally I made <a href="https://github.com/
 
 <h3>Mobile | this.weather</h3>
 <p align="center">
-    <img src="assets/screenshots/Screenshot (125).png" width="400"/>
-    <img src="assets/screenshots/Screenshot (126).png" width="400"/>
-    <img src="assets/screenshots/Screenshot (127).png" width="400"/>
-    <img src="assets/screenshots/Screenshot (129).png" width="400"/>
+    <img src="assets/screenshots/Screenshot (125).png" width="200"/>
+    <img src="assets/screenshots/Screenshot (127).png" width="200"/>
+    <img src="assets/screenshots/Screenshot (129).png" width="200"/>
 </p>
 
 
