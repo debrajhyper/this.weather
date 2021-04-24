@@ -97,3 +97,40 @@ After focusing on many minor details finally I made <a href="https://github.com/
 
 * Weather Conditions: <a href="https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2">openweathermap.org/weather-conditions#Weather-Condition-Codes-2</a>
 
+
+
+# Running
+
+## Clone & install
+
++ Clone this repo `git clone git@github.com:debrajhyper/this.weather`
++ `cd this.weather`
++ run `npm install`
+
+## API keys
++ Get your API key from <a href="https://openweathermap.org/">http://openweathermap.org/</a>
++ Create a new file `src/apiKeys.js`:
+
+```jsx
+const api = {
+  key: "YOUR_KEY_HERE",
+  base: "https://api.openweathermap.org/data/2.5/"
+};
+
+export default api;
+```
+
+<!-- ## License
+
+Released under the [MIT License](http://opensource.org/licenses/MIT). -->
+
+# Feedback
+
+Feedback is always welcome. Feel free to contact me, I would love to know if you notice something that can be done better. Please be nice, this is my first React PWA.
+<br>
+
+```javascript
+if (_.isAwesome(thisRepo)) {
+  thisRepo.star(); // thanks in advance :p
+}
+```
