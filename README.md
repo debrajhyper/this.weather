@@ -129,7 +129,7 @@ export default api;
 
 Released under the [MIT License](http://opensource.org/licenses/MIT). -->
 
-# Feedback
+# 📩 Feedback
 
 Feedback is always welcome. Feel free to contact me, I would love to know if you notice something that can be done better. Please be nice, this is my first React PWA.
 <br>
