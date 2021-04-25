@@ -280,7 +280,9 @@ class App extends Component {
         <main>
           <div className="row">
             <div className="col-12 col-md-7 col-xl-8 col left">
-              <a className="title-link" href="/"><h1 className="title" >this.weather<br/></h1></a>
+              <div className="heading-title">
+                <h1 className="title" ><a className="title-link" href="/">this.weather<br/></a></h1>
+              </div>
               <div className="weather-box">
                 <h1 className="d-inline-flex temp">{this.state.temp}°C<br/></h1>
                 <div className="d-inline-flex location-box">

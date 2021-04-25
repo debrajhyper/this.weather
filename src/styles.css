@@ -6,7 +6,6 @@
 }
 
 body {
-  /* font-family: 'Courier New', Courier, monospace; */
   font-family: 'Poppins';
 }
 
@@ -32,7 +31,6 @@ main {
   top: 0;
   left: 0;
   /*height: 100%;*/
-  /*margin: 0;*/
 }
 
 .row .col:first-child {
@@ -42,22 +40,27 @@ main {
   flex-direction: column;
 }
 
-.left .title-link {
-  color: white;
-  text-decoration: none;
+.heading-title {
+  display: inline-flex;
 }
 
 .left .title {
   color: white;
+  display: inline-block;
   font-size: 1.2vw;
-  /* font-family: monospace; */
   opacity: 0.3;
   font-weight: 700;
   cursor: pointer;
 }
 
+.left .title-link {
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
 .weather-box {
-  /*padding-bottom: 2vw;*/
   text-align: left;
   display: flex;
   color: white;
@@ -70,12 +73,10 @@ main {
   position: relative;
   top: 0;
   left: 0;
-  /*width: 40%;*/
   /*display: inline-block;*/
   padding: 0;
   margin: 0;
   margin-right: 2%;
-  /*font-size: 9rem;*/
   font-size: 9vw;
   font-weight: 600;
   text-align: center;
@@ -84,7 +85,6 @@ main {
 
 .location-box {
   /*display: inline-block;*/
-  /*width: 100%;*/
   padding-bottom: 2%;
   margin-right: 2%;
   text-align: center;
@@ -95,7 +95,6 @@ main {
 }
 
 .location-box .location {
-  /* border: 1px solid red; */
   font-size: 3vw;
   font-weight: 400;
   letter-spacing: .0em;
@@ -105,7 +104,6 @@ main {
 }
 
 .location-box .date {
-  /* border: 1px solid blue; */
   font-size: 1.2vw;
   font-weight: 300;
   /* line-height: 100%; */
@@ -116,11 +114,6 @@ main {
   /*display: inline-block;*/
   padding-bottom: 2%;
   margin: 0;
-  /*width: 20%;*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*justify-content: center;*/
-  /*align-items: flex-start;*/
 }
 
 .weather-ibox {
@@ -135,7 +128,6 @@ main {
 }
 
 .weather-icon .image {
-  /* border: 1px solid red; */
   display: inline-block;
   width: 4vw;
   padding: 0;
@@ -143,7 +135,6 @@ main {
 }
 
 .weather-icon .weather {
-  /* border: 1px solid blue; */
   font-size: 1.2vw;
   font-weight: 300;
   /* line-height: 100%; */
@@ -155,7 +146,6 @@ main {
 .col.right {
   position: relative;
   padding: 0 1.5vw;
-  /*background: rgba(0,0,0,0.1);*/
   backdrop-filter: blur(10px);
   box-shadow: 0px 25px 45px rgba(0, 0, 0, 0.1);
 }
@@ -214,7 +204,6 @@ main {
   padding: 2vw;
   color: white;
   font-family: 'Poppins';
-  /*text-align: justify;*/
 }
 
 .weather-details {
@@ -243,7 +232,6 @@ main {
 .weather-info .basic div h1 {
   font-size: 1vw;
   letter-spacing: .05em;
-  /*margin: 0;*/
 }
 
 .weather-info .station .position {
@@ -304,13 +292,11 @@ main {
 }
 
 .else-box {
-  /* border: 1px solid red; */
   position: relative;
   text-align: center;
   padding: 4vw;
   color: white;
 
-  /* border: 1px solid white; */
   border-radius: 10px;
   background: rgba(255,255,255,0.1);
   backdrop-filter: blur(5px);

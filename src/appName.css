@@ -231,3 +231,71 @@
     50%  {opacity: 0;}
     100% {opacity: 1;}
 } */
+
+
+
+
+
+
+
+/************************************************************************************************************/
+
+@media (max-width: 767px) {
+    .app_name {
+        background-image: url('./assets/wallpaper/unknown_mob_com.webp');
+    }
+    .D_clear_sky {
+        background-image: url('./assets/wallpaper/D_clear_sky_mob_com.webp');
+    }
+    .N_clear_sky {
+        background-image: url('./assets/wallpaper/N_clear_sky_mob_com.webp');
+    }
+    .D_few_clouds {
+        background-image: url('./assets/wallpaper/D_few_clouds_mob_com.webp');
+    }
+    .N_few_clouds {
+        background-image: url('./assets/wallpaper/N_few_clouds_mob_com.webp');
+    }
+    .D_scattered_clouds {
+        background-image: url('./assets/wallpaper/D_scattered_clouds_mob_com.webp');
+    }
+    .N_scattered_clouds {
+        background-image: url('./assets/wallpaper/N_scattered_clouds_mob_com.webp');
+    }
+    .D_broken_clouds {
+        background-image: url('./assets/wallpaper/D_broken_clouds_mob_com.webp');
+    }
+    .N_broken_clouds {
+        background-image: url('./assets/wallpaper/N_broken_clouds_mob_com.webp');
+    }
+    .D_shower_rain {
+        background-image: url('./assets/wallpaper/D_shower_rain_mob_com.webp');
+    }
+    .N_shower_rain {
+        background-image: url('./assets/wallpaper/N_shower_rain_mob_com.webp');
+    }
+    .D_rain {
+        background-image: url('./assets/wallpaper/D_rain_mob_com.webp');
+    }
+    .N_rain {
+        background-image: url('./assets/wallpaper/N_rain_mob_com.webp');
+    }
+    .D_thunderstorm {
+        background-image: url('./assets/wallpaper/D_thunderstorm_mob_com.webp');
+    }
+    .N_thunderstorm {
+        background-image: url('./assets/wallpaper/N_thunderstorm_mob_com.webp');
+    }
+    .D_snow {
+        background-image: url('./assets/wallpaper/D_snow_mob_com.webp');
+    }
+    .N_snow {
+        background-image: url('./assets/wallpaper/N_snow_mob_com.webp');
+    }
+    .D_mist {
+        background-image: url('./assets/wallpaper/D_mist_mob_com.webp');
+    }
+    .N_mist {
+        background-image: url('./assets/wallpaper/N_mist_mob_com.webp');
+    }
+}

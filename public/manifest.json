@@ -54,6 +54,5 @@
   "theme_color": "#000000",
   "background_color": "#ffffff",
   "description": "Watch the weather in your city and received hourly forecast, including data of wind, cloudiness, pressure, humidity, time of sunrise and sunset,  geo coords on this.weather App",
-  "orientation": "any",
   "lang": "en-IN"
 }

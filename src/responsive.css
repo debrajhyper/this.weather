@@ -1,14 +1,6 @@
 @media (max-width: 767px) {
   .row .left {
     padding-bottom: 0vw!important;
-    /*padding: 2vw 5vw!important;*/
-    /*height: 80vw!important;*/
-  }
-}
-
-@media (max-width: 767px) {
-  .row .right {
-    /*height: 200vw!important;*/
   }
 }
 
