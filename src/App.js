@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { MdInfoOutline } from "react-icons/md"
+import AboutModal from './about'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import else_icon from "./assets/icons/else_icon.gif"
 import search_icon from "./assets/icons/search.gif"
@@ -69,6 +71,7 @@ var degToCard = (deg) => {
 }
 
 
+
 class App extends Component {
 
   state = {
@@ -92,7 +95,8 @@ class App extends Component {
     sunset: null,
     windSpeed: null,
     windDeg: null,
-    windDirection: null
+    windDirection: null,
+    addModalShow : false
   }
 
   componentDidMount() {
@@ -157,6 +161,8 @@ class App extends Component {
 
 
   render() {
+
+    let addModalClose = () => this.setState({addModalShow : false})
 
     const search = async(e) => {
       if (e.key === "Enter") {
@@ -282,6 +288,9 @@ class App extends Component {
             <div className="col-12 col-md-7 col-xl-8 col left">
               <div className="heading-title">
                 <h1 className="title" ><a className="title-link" href="/">this.weather<br/></a></h1>
+                <div variant="primary" onClick={()=> this.setState({addModalShow : true})} >
+                  <MdInfoOutline className="app-info-icon" title="About this.weather" />
+                </div>
               </div>
               <div className="weather-box">
                 <h1 className="d-inline-flex temp">{this.state.temp}°C<br/></h1>
@@ -388,6 +397,7 @@ class App extends Component {
             </div>
           </div>
         </main>
+        <AboutModal show={this.state.addModalShow} onHide={addModalClose} />
       </div>
       );
   }else {
@@ -395,7 +405,6 @@ class App extends Component {
         <div className="app_name" >
           <main className="else-main">
             <div className="else-box">
-              {/* <ReactPlayer className="else-img" alt="loading" url={else_icon} playing={true} loop={true} controls={false} autoplay /> */}
               <img className="else-img" alt="loading" src={else_icon} width="100%" height="100%" />
               <h3 className="else-detect">Detecting your location</h3>
               <h3 className="else-msg">

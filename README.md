@@ -50,10 +50,13 @@ After focusing on many minor details finally I made <a href="https://github.com/
     <li>PWA</li>
     <li>HTML5</li>
     <li>CSS3</li>
-    <li>Bootstrap</li>
+    <li>react icons</li>
+    <li>react Bootstrap</li>
     <li>React JS</li>
     <li>Fetch API</li>
-    <li>lottiefiles</li>
+    <li>lottie files</li>
+    <li>Adobe Photoshop</li>
+    <li>Adobe XD</li>
     <li>Github</li>
     <li>VS Code</li>
     <li>Chrome</li>
