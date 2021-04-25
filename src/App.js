@@ -282,7 +282,7 @@ class App extends Component {
 
   if(this.state.temp) {
     return (
-      <div className={appName}>
+      <div id="app" className={appName}>
         <main>
           <div className="row">
             <div className="col-12 col-md-7 col-xl-8 col left">
