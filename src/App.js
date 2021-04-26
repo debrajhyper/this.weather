@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { MdInfoOutline } from "react-icons/md"
 import AboutModal from './about'
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+// import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import else_icon from "./assets/icons/else_icon.gif"
 import search_icon from "./assets/icons/search.gif"
 import icon from './icon'
 
 const api = {
-  key: "YOUR_API_KEY",
+  key: "1d128cf24ff998cc6811e7c3bd6ab4d8",
   base: "https://api.openweathermap.org/data/2.5/"
 }
 
