@@ -49,7 +49,7 @@ After focusing on many minor details finally I made <a href="https://github.com/
     <li>Webpack</li>
     <li>PWA</li>
     <li>HTML5</li>
-    <li>CSS3</li>
+    <li>SCSS</li>
     <li>react icons</li>
     <li>react Bootstrap</li>
     <li>React JS</li>

@@ -30,17 +30,17 @@
     font-size: 4vw!important;
   }
   .weather-details h1 {
-    font-size: 3.5vw!important;
+    font-size: 3.8vw!important;
     letter-spacing: .07em;
   }
   .weather-info h1 {
-    font-size: 3.5vw!important;
+    font-size: 3.8vw!important;
   }
   .station .base {
-    font-size: 4.1vw!important;
+    font-size: 5vw!important;
   }
   .station .value {
-    font-size: 5.3vw!important;
+    font-size: 6vw!important;
   }
   /*--------------------[ A B O U T ]-----------------------*/
   .modal-body img {
@@ -54,5 +54,15 @@
     font-size: 2.6vw;
     font-weight: 700;
     letter-spacing: .5px;
+  }
+  /*************************************************[   E L S E   ]*******************************************************/
+  .else-img {
+    width: 10ch;
+  }
+  .else-detect {
+    font-size: 2.5ch;
+  }
+  .else-msg {
+    font-size: 1.5ch;
   }
 }

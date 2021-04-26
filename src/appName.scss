@@ -1,77 +1,114 @@
+@mixin app() {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /*height: 100vh;*/
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s ease-out;
+    background-repeat: no-repeat;
+    animation: fade .4s;
+}
+
+/* @keyframes fade {
+    0%   {opacity: 1;}
+    50%  {opacity: 0;}
+    100% {opacity: 1;}
+} */
+
 .app_name {
     background-image: url('./assets/wallpaper/unknown.webp');
+    @include app();
 }
 
 .D_clear_sky {
     background-image: url('./assets/wallpaper/D_clear_sky.webp');
+    @include app();
 }
 
 .N_clear_sky {
     background-image: url('./assets/wallpaper/N_clear_sky.webp');
+    @include app();
 }
 
 .D_few_clouds {
     background-image: url('./assets/wallpaper/D_few_clouds.webp');
+    @include app();
 }
 
 .N_few_clouds {
     background-image: url('./assets/wallpaper/N_few_clouds.webp');
+    @include app();
 }
 
 .D_scattered_clouds {
     background-image: url('./assets/wallpaper/D_scattered_clouds.webp');
+    @include app();
 }
 
 .N_scattered_clouds {
     background-image: url('./assets/wallpaper/N_scattered_clouds.webp');
+    @include app();
 }
 
 .D_broken_clouds {
     background-image: url('./assets/wallpaper/D_broken_clouds.webp');
+    @include app();
 }
 
 .N_broken_clouds {
     background-image: url('./assets/wallpaper/N_broken_clouds.webp');
+    @include app();
 }
 
 .D_shower_rain {
     background-image: url('./assets/wallpaper/D_shower_rain.webp');
+    @include app();
 }
 
 .N_shower_rain {
     background-image: url('./assets/wallpaper/N_shower_rain.webp');
+    @include app();
 }
 
 .D_rain {
     background-image: url('./assets/wallpaper/D_rain.webp');
+    @include app();
 }
 
 .N_rain {
     background-image: url('./assets/wallpaper/N_rain.webp');
+    @include app();
 }
 
 .D_thunderstorm {
     background-image: url('./assets/wallpaper/D_thunderstorm.webp');
+    @include app();
 }
 
 .N_thunderstorm {
     background-image: url('./assets/wallpaper/N_thunderstorm.webp');
+    @include app();
 }
 
 .D_snow {
     background-image: url('./assets/wallpaper/D_snow.webp');
+    @include app();
 }
 
 .N_snow {
     background-image: url('./assets/wallpaper/N_snow.webp');
+    @include app();
 }
 
 .D_mist {
     background-image: url('./assets/wallpaper/D_mist.webp');
+    @include app();
 }
 
 .N_mist {
     background-image: url('./assets/wallpaper/N_mist.webp');
+    @include app();
 }
 
 /************************************************************************************************************/
@@ -79,59 +116,78 @@
 @media (max-width: 767px) {
     .app_name {
         background-image: url('./assets/wallpaper/unknown_mob_com.webp');
+        @include app();
     }
     .D_clear_sky {
         background-image: url('./assets/wallpaper/D_clear_sky_mob_com.webp');
+        @include app();
     }
     .N_clear_sky {
         background-image: url('./assets/wallpaper/N_clear_sky_mob_com.webp');
+        @include app();
     }
     .D_few_clouds {
         background-image: url('./assets/wallpaper/D_few_clouds_mob_com.webp');
+        @include app();
     }
     .N_few_clouds {
         background-image: url('./assets/wallpaper/N_few_clouds_mob_com.webp');
+        @include app();
     }
     .D_scattered_clouds {
         background-image: url('./assets/wallpaper/D_scattered_clouds_mob_com.webp');
+        @include app();
     }
     .N_scattered_clouds {
         background-image: url('./assets/wallpaper/N_scattered_clouds_mob_com.webp');
+        @include app();
     }
     .D_broken_clouds {
         background-image: url('./assets/wallpaper/D_broken_clouds_mob_com.webp');
+        @include app();
     }
     .N_broken_clouds {
         background-image: url('./assets/wallpaper/N_broken_clouds_mob_com.webp');
+        @include app();
     }
     .D_shower_rain {
         background-image: url('./assets/wallpaper/D_shower_rain_mob_com.webp');
+        @include app();
     }
     .N_shower_rain {
         background-image: url('./assets/wallpaper/N_shower_rain_mob_com.webp');
+        @include app();
     }
     .D_rain {
         background-image: url('./assets/wallpaper/D_rain_mob_com.webp');
+        @include app();
     }
     .N_rain {
         background-image: url('./assets/wallpaper/N_rain_mob_com.webp');
+        @include app();
     }
     .D_thunderstorm {
         background-image: url('./assets/wallpaper/D_thunderstorm_mob_com.webp');
+        @include app();
     }
     .N_thunderstorm {
         background-image: url('./assets/wallpaper/N_thunderstorm_mob_com.webp');
+        @include app();
     }
     .D_snow {
         background-image: url('./assets/wallpaper/D_snow_mob_com.webp');
+        @include app();
     }
     .N_snow {
         background-image: url('./assets/wallpaper/N_snow_mob_com.webp');
+        @include app();
     }
     .D_mist {
         background-image: url('./assets/wallpaper/D_mist_mob_com.webp');
+        @include app();
     }
     .N_mist {
         background-image: url('./assets/wallpaper/N_mist_mob_com.webp');
+        @include app();
     }
 }

@@ -1,13 +1,7 @@
 const CACHE_NAME = "version-1"
 const urlsToCache = [ 
     'index.html', 
-    'offline.html', 
-    './static/css/2.4c97ca4f.chunk.css', 
-    './static/css/main.d9453a98.chunk.css',
-    './static/js/2.01555491.chunk.js',
-    './static/js/3.111b3ef9.chunk.js',
-    './static/js/main.a3e2b3a5.chunk.js',
-    './static/js/runtime-main.9aa70c26.js'
+    'offline.html'
 ]
 
 const self = this;
