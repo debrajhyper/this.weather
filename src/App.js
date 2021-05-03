@@ -4,7 +4,7 @@ import { MdInfoOutline } from "react-icons/md"
 import AboutModal from './about'
 // import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import else_icon from "./assets/icons/else_icon.gif"
-import search_icon from "./assets/icons/search.gif"
+// import search_icon from "./assets/icons/search.gif"
 import icon from './icon'
 
 const api = {
@@ -168,6 +168,7 @@ class App extends Component {
     const search = async(e) => {
       var regex = new RegExp("^[a-zA-Z ]*$");
       var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
+      console.log(e, regex, str, regex.test(str))
       if (regex.test(str) || e.key === "Enter" || e.target.value === "Enter") {
           if (e.key === "Enter" || e.target.value === "Enter") {
             if(this.state.setQuery == null || this.state.setQuery === " " || this.state.setQuery === undefined) {
