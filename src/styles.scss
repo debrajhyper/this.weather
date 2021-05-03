@@ -168,6 +168,7 @@ main {
   display: block;
   width: 100%;
   padding: 8px 20px;
+  padding-right: 110px;
   appearance: none;
   background: none;
   border: none;
@@ -185,18 +186,37 @@ main {
 .search-box .search-bar:focus {
   background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.2);
-  padding-right: 55px;
+  padding-right: 110px;
 }
 
-.search-box .search-icon {
+.search-box .search-button {
   position: absolute;
   right: 0;
   top: 0;
-  height: 100%;
-  padding: 2%;
-  margin-right: 2%;
+  height: 60%;
+  padding: 4%;
+  margin: 1.2%;
+  line-height: 0;
   opacity: 0.8;
+  outline: 0!important;
+  border: none!important;
+  border-color: none!important;
+  background-color: rgba(255, 255, 255, 0.1)!important;
 }
+
+.search-box .search-button:hover {
+  background-color: rgba(255, 255, 255, 0.2)!important;
+}
+
+// .search-box .search-icon {
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+//   height: 100%;
+//   padding: 2%;
+//   margin-right: 2%;
+//   opacity: 0.8;
+// }
 
 .details-box {
   padding: 2vw;

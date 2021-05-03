@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Button } from 'react-bootstrap'
 import { MdInfoOutline } from "react-icons/md"
 import AboutModal from './about'
 // import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -165,17 +166,10 @@ class App extends Component {
     let addModalClose = () => this.setState({addModalShow : false})
 
     const search = async(e) => {
-      // if(e.code == e.code.search(/Number/i)){
-      //   alert("please enter a city name")
-      // }
-      // if(e.code === e.code.search(/null/i)){
-      //   alert("null")
-      // }
       var regex = new RegExp("^[a-zA-Z ]*$");
       var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
-      if (regex.test(str) || e.key === "Enter") {
-          if (e.key === "Enter") {
-            console.log(this.state.setQuery)
+      if (regex.test(str) || e.key === "Enter" || e.target.value === "Enter") {
+          if (e.key === "Enter" || e.target.value === "Enter") {
             if(this.state.setQuery == null || this.state.setQuery === " " || this.state.setQuery === undefined) {
               alert("Please enter a location");
             }
@@ -331,8 +325,9 @@ class App extends Component {
             </div>
             <div className="col col right">
               <div className="search-box">
-                <input type="text" className="search-bar" placeholder="Search..." onChange={e => {this.setState({setQuery: e.target.value})}} onKeyPress={search} />
-                <img className="search-icon" alt="search" src={search_icon} />
+                <input type="text" className="search-bar" placeholder="Search City..." onChange={e => {this.setState({setQuery: e.target.value})}} onKeyPress={search} />
+                <Button className="search-button" alt="search" type="button" style={{boxShadow: 'none'}} value="Enter" onClick={search}>Search</Button>{' '}
+                {/* <img className="search-icon" alt="search" src={search_icon} /> */}
               </div>
               <div className="details-box">
                 <div className="d-flex weather-details">
