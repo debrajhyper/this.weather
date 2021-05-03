@@ -7,7 +7,7 @@ import search_icon from "./assets/icons/search.gif"
 import icon from './icon'
 
 const api = {
-  key: "YOUR_API_KEY",
+  key: "1d128cf24ff998cc6811e7c3bd6ab4d8",
   base: "https://api.openweathermap.org/data/2.5/"
 }
 
@@ -165,40 +165,63 @@ class App extends Component {
     let addModalClose = () => this.setState({addModalShow : false})
 
     const search = async(e) => {
-      if (e.key === "Enter") {
-        try {
-          const url = await fetch(`${api.base}weather?q=${this.state.setQuery}&units=metric&APPID=${api.key}`)
-          const data = await url.json()
-          // console.log(data)
-          this.setState({
-            setQuery: null,
-            lat: data.coord.lat,
-            lon: data.coord.lon,
-            temp: Math.round(data.main.temp),
-            location: data.name,
-            icon: data.weather[0].icon,
-            weather: data.weather[0].main,
-            weatherDesc: data.weather[0].description,
-            realFeel: data.main.feels_like.toFixed(1),
-            humidity: data.main.humidity,
-            visibility: Math.round(data.visibility/1000),
-            pressure: data.main.pressure,
-            minTemp: data.main.temp_min.toFixed(1),
-            maxTemp: data.main.temp_max.toFixed(1),
-            cloudiness: data.clouds.all,
-            country: data.sys.country,
-            sunrise: unix_timestamp(data.sys.sunrise),
-            sunset: unix_timestamp(data.sys.sunset),
-            windSpeed: Math.round(data.wind.speed * 3.6),
-            windDeg: data.wind.deg,
-            windDirection: degToCard(data.wind.deg)
-          })
-        }
-        catch {
-          alert(`Location ${this.state.setQuery} not found !`)
-        }
-        
+      // if(e.code == e.code.search(/Number/i)){
+      //   alert("please enter a city name")
+      // }
+      // if(e.code === e.code.search(/null/i)){
+      //   alert("null")
+      // }
+      var regex = new RegExp("^[a-zA-Z ]*$");
+      var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
+      if (regex.test(str) || e.key === "Enter") {
+          if (e.key === "Enter") {
+            console.log(this.state.setQuery)
+            if(this.state.setQuery == null || this.state.setQuery === " " || this.state.setQuery === undefined) {
+              alert("Please enter a location");
+            }
+            else if(this.state.setQuery === "null" || this.state.setQuery === "undefined") {
+              alert(`${this.state.setQuery} is not a location`);
+            }
+            else {
+              try {
+                const url = await fetch(`${api.base}weather?q=${this.state.setQuery}&units=metric&APPID=${api.key}`)
+                const data = await url.json()
+                // console.log(data)
+                this.setState({
+                  setQuery: null,
+                  lat: data.coord.lat,
+                  lon: data.coord.lon,
+                  temp: Math.round(data.main.temp),
+                  location: data.name,
+                  icon: data.weather[0].icon,
+                  weather: data.weather[0].main,
+                  weatherDesc: data.weather[0].description,
+                  realFeel: data.main.feels_like.toFixed(1),
+                  humidity: data.main.humidity,
+                  visibility: Math.round(data.visibility/1000),
+                  pressure: data.main.pressure,
+                  minTemp: data.main.temp_min.toFixed(1),
+                  maxTemp: data.main.temp_max.toFixed(1),
+                  cloudiness: data.clouds.all,
+                  country: data.sys.country,
+                  sunrise: unix_timestamp(data.sys.sunrise),
+                  sunset: unix_timestamp(data.sys.sunset),
+                  windSpeed: Math.round(data.wind.speed * 3.6),
+                  windDeg: data.wind.deg,
+                  windDirection: degToCard(data.wind.deg)
+                })
+              }
+              catch {
+                alert(`Location ${this.state.setQuery} not found !`)
+              }
+            }
+
+          }
+        return true;
       }
+      e.preventDefault();
+      return false;
+      
     }
 
     var weatherIcon;
