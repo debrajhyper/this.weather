@@ -8,7 +8,7 @@ import search_icon from "./assets/icons/search.gif"
 import icon from './icon'
 
 const api = {
-  key: "1d128cf24ff998cc6811e7c3bd6ab4d8",
+  key: "YOUR_API_KEY",
   base: "https://api.openweathermap.org/data/2.5/"
 }
 
