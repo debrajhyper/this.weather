@@ -120,6 +120,15 @@ class App extends Component {
     else {
       alert("Geolocation not available");
     }
+
+    this.timerID = setInterval(
+      () => this.getWeather(this.state.lat, this.state.lon),
+      600000
+    );
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
   }
 
   getPositions = () => {
@@ -160,15 +169,14 @@ class App extends Component {
   }
 
 
-
   render() {
-
     let addModalClose = () => this.setState({addModalShow : false})
 
     const search = async(e) => {
+      // console.log(e.key)
       var regex = new RegExp("^[a-zA-Z ]*$");
       var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
-      console.log(e, regex, str, regex.test(str))
+      // console.log(e, regex, str, regex.test(str))
       if (regex.test(str) || e.key === "Enter" || e.target.value === "Enter") {
           if (e.key === "Enter" || e.target.value === "Enter") {
             if(this.state.setQuery == null || this.state.setQuery === " " || this.state.setQuery === undefined) {
