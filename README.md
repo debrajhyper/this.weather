@@ -1,6 +1,6 @@
-# <img src="public/favicon.png" width="48" alt="this.weather icon"/>    React PWA | this.weather App [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/debrajhyper)
+# <img src="public/favicon.png" width="48" alt="this.weather icon"/>    React PWA | this.weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 <br/>
 <br/>
 
